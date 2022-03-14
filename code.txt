@@ -1,0 +1,393 @@
+------------------------index.html------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="icon" href="Images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        <div class="nav">
+            <nav class="nav-bar">
+                <br>
+                <a href="code.txt" class="nav-link">Source Code</a> &nbsp;
+                <a href="photos.html" class="nav-link">Photos</a> &nbsp;
+                <a href="index.html" class="nav-link">Home</a> &nbsp;
+                <br>
+                <br>
+                <br>
+            </nav>
+        </div>
+    </head>
+    <body>
+        <div id="wrapper">
+        <div class="top-box">
+            <br>
+            <br>
+            <img src="Images/cloud.png" alt="cloud-img" class="top-cloud" style="max-width:100%;height:auto;">
+            <i><h1>I'm Akiro</h1></i>
+            <h2>A <span style="text-decoration: underline;">Pro</span>grammer.</h2>
+            <img src="Images/cloud.png" alt="cloud-img" class="lower-cloud" style="max-width:100%;height:auto;">
+            <img src="Images/mountain.png" alt="mountain-img" style="max-width:100%;height:auto;">
+            
+            <div class="middle-box" id="photos">
+                <div class="profile">
+                  <img src="Images/Me.png" alt="me-img" class="me">
+                  <h2>Hello</h2>
+                  <p id="bio">I'm an avid hiker and camper who loves coffee and chocolate. I go to Fletcher Middle School and I went to Ohlone Elementry School. I have a dog named Google, a 4 year old brother named Dhruv and I live with my mom and dad in Palo Alto</p>
+                </div>
+                <hr>
+                <h2>Things That I love!</h2>
+                <br>
+                <div class="table">
+                    <table class="skills">
+                        <tr>
+                            <td>
+                                <img src="Images/giphy.gif" width="300" height="300">
+                            </td>
+                            <td>
+                                <h3>Programing</h3>
+                                <p class="skill-detail">I am a programer that knows Python, HTML, and CSS and a Graphic Designer that knows Photoshop and Illustrator . I am also currently learning C++, Blender 3D modeling and C++ game development with Unreal Engine</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h3>Spicy Food</h3>
+                                <p>I love spicy food! My favorite food is hot wings and chili garlic fried rice. I also love cooking food as long as it spicy and I know that I'm  going to eat it. I RULE over all the peasents that need milk when they eat hot sauce</p>
+                            </td>
+                            <td>
+                                <img class="chilli" src="Images/chillies.png" alt="chilli-img" width="250" height="250">
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="contact-me">
+                  <h2>Get In Touch</h2>
+                  <h3>Need something?</h3>
+                  <p>Need a website? New Application? A Python Program?</p>
+                  <p>Your solution is an email away!</p>
+                  <h1 id="arrows">⇓⇓⇓</h1>
+                  <br>
+                  <form action="mailto:akiro.udayagiri@gmail.com"><input class="btn" type="submit" value="CONTACT ME"></form>
+                </div>
+              </div>
+              
+              
+              <div class="bottom-box">
+                <br>
+                <a class="footer-link" class="one" href="https://github.com/AkiroUdayagiri/">GitHub</a>
+                <a class="footer-link" class="two" href="https://discordapp.com/users/483050693003968513">Discord</a>
+                <a class="footer-link" class="three" href="https://akiroudayagiri.github.io/AboutMeWebsite/">Website</a>
+                <br>
+                <p id="copyright">© 2022 Akiro Udayagiri<p>
+                <br>
+              </div>
+
+        </div>
+    </div>
+    </body>
+</html>
+------------------------photos.html------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+        <div class="nav">
+            <nav class="nav-bar">
+                <br>
+                <a href="code.txt" class="nav-link">Source Code</a> &nbsp;
+                <a href="photos.html" class="nav-link">Photos</a> &nbsp;
+                <a href="index.html" class="nav-link">Home</a> &nbsp;
+                <br>
+                <br>
+                <br>
+            </nav>
+        </div>
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="top-box">
+            <img src="Images/cloud.png" alt="cloud-img" class="top-cloud">
+            <i><h1>I'm Akiro</h1></i>
+            <h2>My Photos</h2>
+            <img src="Images/cloud.png" alt="cloud-img" class="lower-cloud">
+            <img src="Images/mountain.png" alt="mountain-img">
+    
+    <div class="middle-box" id="middle-photo"> 
+        <center>
+        <a class="pic-7" style="padding-right: 0;">
+            <img width="250" src="Images/big-family.png" />
+        </a></center>
+        <h2 style="margin-left: 0px;">My family and Photos</h2>
+        <hr style="margin-left: auto;">
+    <div id="ul" style="margin-left: 7%;">
+    <ul class="gallery">
+        <li>
+            <a class="pic-1">
+                <img width="250" src="Images/google-glasses.jpg" />
+            </a>
+        </li>
+        <li>
+            <a class="pic-2">
+                <img width="250" src="Images/akiro-dhruv-b-and-w.jpg" />
+            </a>
+        </li>
+        <li>
+            <a class="pic-3">
+                <img width="250" src="Images/christmas.JPG" />
+            </a>
+        </li>
+        <li>
+            <a class="pic-4">
+                <img width="250" src="Images/google-and-me.jpg" />
+            </a>
+        </li>
+        <li>
+            <a class="pic-5">
+                <img width="250" src="Images/akiro-pic.JPG" />
+            </a>
+        </li>
+        <li>
+            <a class="pic-6">
+                <img width="250" src="Images/backpacking.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>
+ 
+</div>
+    </div>
+</body>
+<footer>
+    <div class="bottom-box">
+        <br>
+            <a class="footer-link" class="one" href="https://github.com/AkiroUdayagiri/">GitHub</a>
+            <a class="footer-link" class="two" href="https://discordapp.com/users/483050693003968513">Discord</a>
+            <a class="footer-link" class="three" href="https://akiroudayagiri.github.io/AboutMeWebsite/">Website</a>
+        <br>
+        <p id="copyright">© 2022 Akiro Udayagiri
+        <p>
+</footer>
+    </div>
+
+</html>
+
+------------------------style.css------------------------
+body {
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #66BFBF;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 3% auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: "Montserrat";
+  font-size: 250%;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat" ;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat" ;
+  margin: .5% 3% 1% auto;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-box {
+  padding-top: 6%;
+  height: 100%;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+.middle-box {
+  padding-top: 4%;
+  background-color: #ffffff;
+  padding-bottom: 10%;
+}
+
+.bottom-box {
+  background-color: #66BFBF;
+}
+
+.lower-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: relative;
+  top: 0;
+  left: 16%;
+}
+
+.me {
+  height: 14%;
+  width: 14%;
+}
+
+hr {
+  background-color: #ffffff;
+  border:none;
+  border-top:15px dotted #EAF6F9;
+  width:100px;
+}
+
+.skills {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+#copyright {
+  color: #EAF6F9;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: larger;
+}
+
+#arrows {
+  font-size: 400%;
+}
+
+#bio {
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+}
+
+ul.gallery { list-style: none; 
+}
+
+ul.gallery li a { position: relative;
+    float: left;
+    padding: .5% .5% .5% .5%;
+    background : #e0ebe8;
+    border: 1% solid #e0ebe8; }
+
+ul.gallery li a.pic-1 { z-index: 1;
+    transform: rotate(5deg); 
+}
+
+ul.gallery li a.pic-2 { z-index: 1;
+    transform: rotate(-7deg); 
+}
+
+ul.gallery li a.pic-3 { z-index: 1;
+    transform: rotate(5deg); 
+}
+
+ul.gallery li a.pic-4 { z-index: 1;
+    transform: rotate(-10deg); 
+}
+
+ul.gallery li a.pic-5 { z-index: 1;
+    transform: rotate(5deg); 
+}
+
+ul.gallery li a.pic-6 { z-index: 1;
+    transform: rotate(-7deg); 
+}
+
+ul.gallery li a.pic-7 { z-index: 1;
+  border: 1% solid #ffffff;
+  background : #ffffff;
+}
+
+#wrapper {margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+
+#middle-photo {
+  text-align: center;
+  height: 400%;
+  display: table; 
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background-color: #66BFBF;
+}
+
+#ul {
+  margin-left: auto;
+}
+
+.nav-bar {
+  z-index: 2;
+  float: right;
+  background-color: #66BFBF;
+  width: 100%;
+  position: fixed;
+}
+
+.nav {
+  background-color: #66BFBF;
+}
+
+.nav-link {
+  float: right;
+  text-decoration: none;
+  font-size: 150%;
+}
