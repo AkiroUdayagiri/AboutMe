@@ -80,7 +80,7 @@ hr {
   width:100px;
 }
 
-.table {
+.container {
   max-width: 100%;
 }
 
@@ -91,6 +91,15 @@ hr {
   margin-left: 25%;
 }
 
+.chilli {
+  height: 65%;
+  width: 65%;
+}
+
+.giph {
+  height: 110%;
+  width: 110%;
+}
 
 .btn {
   background: #11cdd4;
